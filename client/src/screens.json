@@ -1,5 +1,13 @@
 {
   "id": "__BASE__",
   "name": "notemptyrepofore2e",
-  "screens": []
+  "screens": [
+    {
+      "id": "test",
+      "name": "test",
+      "sourceScreenId": "blank",
+      "sourceAppId": "default"
+    }
+  ],
+  "startScreen": "test"
 }
