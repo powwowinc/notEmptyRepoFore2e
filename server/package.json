@@ -8,10 +8,10 @@
     "start": "nodemon start.js | bunyan -o short --color"
   },
   "dependencies": {
-    "smartux-connect": "c:\\Program Files\\SmartUX Studio\\dataStore\\smartux-connect\\6.1.0-dev"
+    "smartux-connect": "/Users/brkwon/studio-master/PowwowDesigner/dataStore/smartux-connect/6.1.0-dev"
   },
   "engines": {
     "node": "8.x.x"
   },
-  "customConnectorsFolder": "c:\\ProgramData\\SmartUX Studio\\custom-connectors"
+  "customConnectorsFolder": "/Users/brkwon/studio-master/PowwowDesigner/dataStore/custom-connectors"
 }
