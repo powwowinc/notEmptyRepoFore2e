@@ -6,8 +6,8 @@
   <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="msapplication-tap-highlight" content="no">
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes"/>
-  <meta name="format-detection" content="telephone=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no">
 
   <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
   <link rel="manifest" href="manifest.json">
@@ -18,6 +18,8 @@
 
   <link href="build/main.css" rel="stylesheet">
 
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src * data: blob:; media-src *; font-src *; script-src http://*.googleapis.com https://*.googleapis.com http://*.gstatic.com https://*.gstatic.com 'self' 'unsafe-inline' 'unsafe-eval';
+style-src http://*.googleapis.com https://*.googleapis.com http://*.gstatic.com https://*.gstatic.com 'self' 'unsafe-inline'; connect-src *;">
 </head>
 <body>
 

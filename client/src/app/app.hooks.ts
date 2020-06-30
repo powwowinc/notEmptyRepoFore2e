@@ -96,4 +96,30 @@ export class Hooks extends AppHooks {
     onResume(){
         return true;
     }
+
+    /**
+     * Intercept a request to the server.  Return the boolean true to
+     * continue as normal, or false to indicate not to proceed with the normal flow.
+     */
+    async interceptServerRequest(method, params, filesToUpload, context): Promise<boolean> {
+        return true;
+    }
+
+    /**
+    * Intercept a response from the server.  Return the boolean true to
+    * continue as normal, or false to indicate not to proceed with the normal flow.
+    */
+    async interceptServerResponse(method, params): Promise<boolean> {
+        return true;
+    }
+
+    async onOffline(isOffline) {
+    }
+
+    /**
+    * Determines if the app has the logic in order to be working offline
+    */
+    hasOfflineSupport(): boolean {
+        return false;
+    }
 }

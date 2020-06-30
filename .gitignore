@@ -1,3 +1,6 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
 *~
 *.sw[mnpcod]
 *.log
@@ -20,6 +23,7 @@ node_modules/
 package-lock.json
 tmp/
 temp/
+temp-*
 $RECYCLE.BIN/
 
 client/hooks/

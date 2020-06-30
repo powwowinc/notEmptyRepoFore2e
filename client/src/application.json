@@ -3,12 +3,20 @@
   "defaultLayout": "PhonePortrait",
   "previewToken": "13f49a67",
   "theme": "Anchor",
-  "id": "notemptyrepofore2e",
-  "clientVersion": "6.1.0-dev",
+  "clientVersion": "6.1.0",
   "hidden": false,
   "isBuiltInTemplate": false,
   "disableSideMenu": false,
-  "offlineSupport": false,
   "description": "",
-  "creatorId": "admin"
+  "creatorId": "admin",
+  "screensCount": 1,
+  "viewOnly": false,
+  "branch": "master",
+  "isRemote": true,
+  "creatorName": "PowWow Admin",
+  "explorations": [
+    "notemptyrepofore2e_2"
+  ],
+  "useMockData": false,
+  "created": 1593516921603
 }
