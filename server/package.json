@@ -1,6 +1,6 @@
 {
   "name": "notemptyrepofore2e",
-  "version": "6.1.0",
+  "version": "6.1.1",
   "private": true,
   "description": "PowWow transformation",
   "main": "start.js",
@@ -8,10 +8,10 @@
     "start": "nodemon start.js | bunyan -o short --color"
   },
   "dependencies": {
-    "smartux-connect": "c:\\Program Files\\SmartUX Studio\\dataStore\\smartux-connect\\6.1.0"
+    "smartux-connect": "/usr/share/powwowstudio/dataStore/smartux-connect/6.1.1"
   },
   "engines": {
     "node": "8.x.x"
   },
-  "customConnectorsFolder": "c:\\ProgramData\\SmartUX Studio\\custom-connectors"
+  "customConnectorsFolder": "/usr/share/powwowstudio/custom-connectors"
 }
