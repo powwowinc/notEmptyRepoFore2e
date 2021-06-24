@@ -3,7 +3,7 @@
   "defaultLayout": "PhonePortrait",
   "previewToken": "13f49a67",
   "theme": "Anchor",
-  "clientVersion": "6.1.0",
+  "clientVersion": "6.1.2",
   "hidden": false,
   "isBuiltInTemplate": false,
   "disableSideMenu": false,
@@ -13,7 +13,7 @@
   "viewOnly": false,
   "branch": "master",
   "isRemote": true,
-  "creatorName": "PowWow Admin",
+  "creatorName": "SmartUX Admin",
   "explorations": [
     "notemptyrepofore2e_2"
   ],
