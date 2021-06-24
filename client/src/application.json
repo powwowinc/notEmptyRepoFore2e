@@ -1,9 +1,9 @@
 {
-  "name": "notemptyrepofore2e (Master)",
+  "name": "notemptyrepofore2e",
   "defaultLayout": "PhonePortrait",
   "previewToken": "13f49a67",
   "theme": "Anchor",
-  "clientVersion": "6.1.2",
+  "clientVersion": "6.1.0",
   "hidden": false,
   "isBuiltInTemplate": false,
   "disableSideMenu": false,
@@ -13,7 +13,7 @@
   "viewOnly": false,
   "branch": "master",
   "isRemote": true,
-  "creatorName": "SmartUX Admin",
+  "creatorName": "PowWow Admin",
   "explorations": [
     "notemptyrepofore2e_2"
   ],
